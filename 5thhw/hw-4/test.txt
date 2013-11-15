@@ -1,0 +1,10 @@
+accept	接受	23
+basic	基本	10
+coffee	咖啡	8	
+dispute 爭執 	12
+edit	編輯	30
+fashion 流行 	5
+girl	女孩	14
+happy	快樂	18
+if 	如果	20
+job	工作	2

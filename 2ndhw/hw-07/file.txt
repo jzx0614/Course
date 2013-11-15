@@ -1,0 +1,30 @@
+#INCLUDE<STDIO.H>
+INT SWAP (CHAR *P)
+{
+	IF ('a'<=*P&&*P<='z')
+		*P=*P+32;
+	ELSE IF ('A'<=*P&&*P<='Z')
+		*P=*P-32;
+	RETURN 0;
+}
+INT MAIN (INT ARGC , CHAR *ARGV[])
+{
+	file *FIN,*FOUT;
+	CHAR CH;
+	IF (ARGC!=3)
+		PRINTF("COMMAND ERROR\N");
+	ELSE
+	{
+		FIN =FOPEN(ARGV[1],"R");
+		FOUT=FOPEN(ARGV[2],"W");
+		WHILE((CH=GETC(FIN))!=eof)
+		{
+			SWAP(&CH);
+			PUTC(CH,FOUT);
+		}
+	
+		FCLOSE(FIN);
+		FCLOSE(FOUT);
+	}
+	RETURN 0;
+}

@@ -1,0 +1,128 @@
+2.4
+
+Insert before the cursor.
+	itest <esc>
+Insert test before the cursor.
+
+beginning of line.
+	IInsert at <esc>
+Insert at beginning of line.
+
+2.5
+
+Append the cursor
+	a after<esc>
+Append after the cursor
+
+Append at end
+	A of line<esc>
+Append at end of line.
+
+2.6
+
+The cursor is in this line.
+	o'o' goes here.<esc>
+The cursor is in this line.
+'o' goes here.
+
+The cursor is in this line.
+	O'O' goes here.
+'O' goes here.
+The cursor is in this line.
+
+2.7
+
+Once upon a midnight dreary, while I ondred, weak and weary,
+Over man a quaint and curious volume of forgotten lore;
+	h or <= or Backspace
+Once upon a midnight dreary, while I ondred, weak and weary,
+Over man a quaint and curious volume of forgotten lore;
+
+While I nodded, nearly napping , suddenly there came a tapping,
+As of someone gently rapping, rapping at my chamber door.
+	I or => or Spacebar
+While I nodded, nearly napping , suddenly there came a tapping,
+As of someone gently rapping, rapping at my chamber door.
+
+Once upon a midnight dreary, while I ondred, weak and weary,
+Over man a quaint and curious volume of forgotten lore;
+	0(zreo)
+Once upon a midnight dreary, while I ondred, weak and weary,
+Over man a quaint and curious volume of forgotten lore;
+
+While I nodded, nearly napping , suddenly there came a tapping,
+As of someone gently rapping, rapping at my chamber door.
+	$
+While I nodded, nearly napping , suddenly there came a tapping,
+As of someone gently rapping, rapping at my chamber door.
+
+2.8
+
+Once upon a midnight dreary, while I ondred, weak and weary,
+Over man a quaint and curious volume of forgotten lore;
+	k or ↑        
+Once upon a midnight dreary, while I ondred, weak and weary,
+Over man a quaint and curious volume of forgotten lore;
+
+While I nodded, nearly napping , suddenly there came a tapping,
+As of someone gently rapping, rapping at my chamber door.
+        j or ↓
+While I nodded, nearly napping , suddenly there came a tapping,
+As of someone gently rapping, rapping at my chamber door.
+
+Once upon a midnight dreary, while I ondred, weak and weary,
+Over man a quaint and curious volume of forgotten lore;
+	-(minus sign)
+Once upon a midnight dreary, while I ondred, weak and weary,
+Over man a quaint and curious volume of forgotten lore;
+
+While I nodded, nearly napping , suddenly there came a tapping,
+As of someone gently rapping, rapping at my chamber door.
+	+ or return
+While I nodded, nearly napping , suddenly there came a tapping,
+As of someone gently rapping, rapping at my chamber door.
+
+2.9
+
+Once upon a midnight dreary,while I ponderdd,weak and weary,
+	x
+Once upon a midnight dreary,while I ponderd,weak and weary,
+
+Once upon a midnight dreary,while I ponderd,weak and weary,
+Over many a quaint and curious volume of forgotten lore;
+	dd
+Over many a quaint and curious volume of forgotten lore;
+
+2.10
+
+Now is the time
+For all good students
+	J
+Now is the time For all good students
+
+2.11
+
+	ctrl+y 往上捲動頁面一行
+	ctrl+e 往下捲動頁面一行
+
+	ctrl+u 往上捲動半頁(12行)
+	ctrl+d 往下捲動半頁(12行)
+
+	ctrl+b 往上捲動整頁(24行)
+	ctrl+f 往下捲動整頁(24行)
+
+	(有測試過.只是不好打上結果,所以只做指令的解釋)
+
+2.12
+
+Once upon a evening dreary, as I thought weak and weary,
+	u
+Once upon a evening dreary, as I ponderd weak and weary,
+
+Once upon a evening dreary, as I thought weak and weary,
+	U
+Once upon a midnight dreary, as I pondered weak and weary,
+
+
+
+

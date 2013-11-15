@@ -1,0 +1,32 @@
+package id3bbt2dvppfngddvq89mby;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Dataarray:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Data:oiref>=181,10,141,446,1:oigroup>
+<oigroup:<oiref:java#Class#Run:oiref>=38,260,94,206,1:oigroup>
+<oigroup:<oiref:java#Class#Mytable:oiref>=10,10,151,190,1:oigroup>
+<oigroup:<oiref:java#Class#Dataarray:oiref>=40,20,141,398,1:oigroup>
+<oigroup:<oiref:java#Class#link:oiref>=152,270,119,110,1:oigroup>
+<oigroup:<oiref:java#Extends#Run#Mytable:oiref>=85,260,85,200:oigroup>
+*/
+class __positions {
+}

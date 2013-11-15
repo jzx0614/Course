@@ -1,0 +1,40 @@
+package id2utxldsxh2euqdsxh6n3d;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Big5_to_Unicode:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Unicode_to_Big5:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#StringDemo:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#StringDemo:oiref>=460,32,181,272,0:oigroup>
+<oigroup:<oiref:java#Member#StringDemo#Input#(##)#:oiref>=460,130,175,16,1:oigroup>
+<oigroup:<oiref:java#Class#Unicode_to_Big5:oiref>=250,32,177,272,0:oigroup>
+<oigroup:<oiref:java#Class#Big5_to_Unicode:oiref>=30,30,190,280,0:oigroup>
+*/
+class __positions {
+}

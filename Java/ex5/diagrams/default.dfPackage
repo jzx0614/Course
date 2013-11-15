@@ -1,0 +1,37 @@
+package id1f3cxdu1g9qm4du1gc5k6;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Timetest:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#Timer:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Member#Timetest#long1:oiref>=50,60,94,16,1:oigroup>
+<oigroup:<oiref:java#Class#Timetest:oiref>=140,10,120,210,0:oigroup>
+<oigroup:<oiref:java#Class#Timer:oiref>=10,10,120,210,0:oigroup>
+<oigroup:<oiref:java#Member#Timetest#main#(#java.lang.String[]#)#:oiref>=150,140,114,16,1:oigroup>
+<oigroup:<oiref:java#Member#Timetest#Timetest#(##)#:oiref>=150,130,114,16,1:oigroup>
+<oigroup:<oiref:java#Class#CalendarField:oiref>=21,27,130,183,0:oigroup>
+*/
+class __positions {
+}

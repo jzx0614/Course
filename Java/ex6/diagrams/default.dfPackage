@@ -1,0 +1,52 @@
+package idpv4bdvo0f6e4dvo0fbyz;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Data:oiref><oihard>
+@__modelType reference */
+class reference {
+}/**
+@__ref <oiref:java#Class#link:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#Run:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#Mytable:oiref><oihard>
+@__modelType reference 
+*/
+class reference16 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+
+<oigroup:MemberLink#<oiref:java#Member#ButtonHandler#run:oiref>=388,270,388,280:oigroup>
+<oigroup:<oiref:java#Class#Run:oiref>=200,250,150,210,0:oigroup>
+<oigroup:<oiref:java#Extends#Run#Mytable:oiref>=275,250,275,210:oigroup>
+<oigroup:<oiref:java#Class#Data:oiref>=20,10,161,240,0:oigroup>
+<oigroup:<oiref:java#Extends#ButtonHandler#Data:oiref>=280,210,181,210:oigroup>
+<oigroup:<oiref:java#Class#ButtonHandler:oiref>=280,160,137,110,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Run#temp:oiref>=435,280,275,210:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#ButtonHandler#dt:oiref>=280,185,181,185:oigroup>
+<oigroup:<oiref:java#Class#link:oiref>=40,290,119,120,0:oigroup>
+<oigroup:<oiref:java#Class#Mytable:oiref>=200,20,151,190,1:oigroup>
+*/
+class __positions {
+}

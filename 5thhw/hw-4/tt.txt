@@ -1,0 +1,3 @@
+both 都是 20
+carry 運送 15
+apple 蘋果 30

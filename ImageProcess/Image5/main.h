@@ -1,0 +1,59 @@
+//---------------------------------------------------------------------------
+
+#ifndef mainH
+#define mainH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <Dialogs.hpp>
+#include <ExtDlgs.hpp>
+#include <Menus.hpp>
+#include <ExtCtrls.hpp>
+#include <ComCtrls.hpp>
+#include <Chart.hpp>
+#include <Series.hpp>
+#include <TeEngine.hpp>
+#include <TeeProcs.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+        TOpenPictureDialog *OpenPictureDialog1;
+        TButton *Button1;
+        TButton *Button2;
+        TPageControl *PageControl2;
+        TTabSheet *TabSheet3;
+        TImage *Image1;
+        TTabSheet *TabSheet4;
+        TImage *Image4;
+        TSavePictureDialog *SavePictureDialog1;
+        TChart *Chart1;
+        TAreaSeries *Series1;
+        TMainMenu *MainMenu1;
+        TMenuItem *N1;
+        TMenuItem *BMP1;
+        TMenuItem *JPEG1;
+        TMenuItem *N2;
+        TMenuItem *N3;
+        void __fastcall BMP1Click(TObject *Sender);
+        void __fastcall JPEG1Click(TObject *Sender);
+        void __fastcall N2Click(TObject *Sender);
+        void __fastcall Button1Click(TObject *Sender);
+        void __fastcall Button2Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+        Graphics::TBitmap *graylevel;
+        int num;
+        long max_value;
+        long Histogram[256];
+        long H_equalization[256];
+        void OpenImage(int type);
+        __fastcall TForm1(TComponent* Owner);
+        __fastcall ~TForm1();
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif

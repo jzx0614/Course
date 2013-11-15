@@ -1,0 +1,31 @@
+#!C:\Program Files\PerlDevKit Deployment\bin\lib\pai.exe
+PAP-Version: 1.0
+Packer: C:\Program Files\PerlDevKit Deployment\bin\perlapp.exe
+Script: nblmib.pl
+Cwd: \\Adm\Groups\SWRT\SWRT Projects\D 2006-04 NBL MIB AutoChecker\snmp-test-developemnt\v2007-0308
+Clean: 0
+Date: 2007-03-08 13:29:54
+Debug: 
+Dependent: 0
+Dyndll: 0
+Exe: nblmib.exe
+Force: 0
+Gui: 0
+Hostname: nbl-elia
+No-Compress: 0
+No-Logo: 0
+Runlib: 
+Shared: none
+Tmpdir: 
+Verbose: 0
+Version-Comments: 
+Version-CompanyName: ICL, ITRI
+Version-FileDescription: NBL MIB AutoChecker
+Version-FileVersion: 0.90.0.2
+Version-InternalName: nblmib
+Version-LegalCopyright: (C)2007 ITRI-NCTU NBL
+Version-LegalTrademarks: 
+Version-OriginalFilename: nblmib
+Version-ProductName: NBL MIB AutoChecker
+Version-ProductVersion: 0.90.0.2
+Xclude: 0
